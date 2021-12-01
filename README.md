@@ -1,3 +1,1 @@
-#Intellias Frontend Course
-
-Webstudio template
+# Webstudio template
