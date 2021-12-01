@@ -1,4 +1,3 @@
-# goit-markup-hw-01
-Intellias Frontend Course
+#Intellias Frontend Course
 
 Webstudio template
