@@ -14,7 +14,9 @@
 body {
   font-family: var(--main-font);
   font-weight: normal;
+  font-size: 14px;
   color: var(--main-color);
+  letter-spacing: 0.03em;
 }
 
 .link {
@@ -30,7 +32,7 @@ body {
 }
 
 .logo-part {
-  color: #2196f3;
+  color: var(--navi-color);
 }
 
 .logo-light {
@@ -41,19 +43,14 @@ body {
   list-style: none;
 }
 
-.nav-link {
+.nav-link, .header__contacts-link {
   font-weight: 500;
-  font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--main-color);
 }
 
 .header__contacts-link {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
   color: var(--info-color);
 }
 
@@ -62,11 +59,12 @@ body {
 .nav-link:active,
 .header__contacts-link:hover,
 .header__contacts-link:focus,
-.header__contacts-link:active {
+.header__contacts-link:active,
+.selected {
   color: var(--navi-color);
 }
 
-.hero {
+.hero, .footer {
   background-color: var(--bg-color);
 }
 
@@ -93,16 +91,13 @@ body {
   border: none;
 }
 
-.features__title {
+.features__subtitle {
   font-weight: bold;
-  font-size: 14px;
   line-height: 1.14;
-  letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 
 .features__info {
-  font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--info-color);
@@ -114,25 +109,18 @@ body {
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
-  letter-spacing: 0.03em;
 }
 
 .our-team__subtitle {
   font-weight: 500;
   font-size: 16px;
   line-height: 19px;
-  letter-spacing: 0.03em;
 }
 
 .our-team__info {
   font-size: 16px;
   line-height: 1.18;
-  letter-spacing: 0.03em;
   color: var(--info-color);
-}
-
-.footer {
-  background: var(--bg-color);
 }
 
 .logo-dark {
@@ -141,17 +129,13 @@ body {
 
 .adress-link {
   font-style: normal;
-  font-size: 14px;
   line-height: 1.71;
-  letter-spacing: 0.03em;
   color: var(--light-color);
 }
 
 .footer__contacts-link {
   font-style: normal;
-  font-size: 14px;
   line-height: 1.71;
-  letter-spacing: 0.03em;
   color: var(--contacts-color);
 }
 
@@ -169,7 +153,6 @@ body {
   font-size: 16px;
   line-height: 1.625;
   text-align: center;
-  letter-spacing: 0.03em;
   cursor: pointer;
   outline: none;
   border: none;
@@ -194,6 +177,5 @@ body {
 .portfolio__info {
   font-size: 16px;
   line-height: 1.875;
-  letter-spacing: 0.03em;
   color: var(--info-color);
 }
